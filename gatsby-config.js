@@ -1,12 +1,16 @@
 module.exports = {
   siteMetadata: {
-    title: "Hi, looking for a starter? 🔎",
-    message: "🚧 Host me on your domain while you build your new Gatsby site! (or keep me longer, that's fine too) 👷",
+    title: "Hi! I'm Franklin, looking for my page? 🔎",
+    message:
+      "🚧 This site is actually under construction, you can go back later! 👷",
     pattern: "Arrows",
     color: "#4c4c4c",
     titleFont: "Righteous",
     messageFont: "Roboto",
-    social: ["https://github.com/robinmetral/gatsby-starter-under-construction", "https://twitter.com/robinmetral"],
+    social: [
+      "https://github.com/fcastillo18",
+      "https://twitter.com/fcastillo181"
+    ]
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -19,9 +23,9 @@ module.exports = {
         background_color: "#4c4c4c",
         theme_color: "#4c4c4c",
         display: "standalone",
-        icon: "src/images/icon.png",
-      },
+        icon: "src/images/icon.png"
+      }
     },
     "gatsby-plugin-offline"
-  ],
-}
+  ]
+};
